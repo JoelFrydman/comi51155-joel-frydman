@@ -6,7 +6,7 @@ const ItemList = ( {items} ) => {
 
     return (
         <div>
-            <h2 className="list-container__title">Destinos</h2>
+            <h2 className="list-container__title">Encontra tu proximo destino</h2>
             <hr/>
 
             <div className='row'>

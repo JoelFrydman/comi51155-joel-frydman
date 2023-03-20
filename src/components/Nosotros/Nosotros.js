@@ -15,14 +15,14 @@ const Nosotros = () => {
                 <Card.ImgOverlay>
                     <Card.Title>Joe's World</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in
+                        <p>This is a wider card with supporting text below as a natural lead-in
                         to additional content. This content is a little bit longer.
                         This is a wider card with supporting text below as a natural lead-in
                         to additional content. This content is a little bit longer.
                         This is a wider card with supporting text below as a natural lead-in
                         to additional content. This content is a little bit longer.
                         This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This content is a little bit longer.
+                        to additional content. This content is a little bit longer.</p>
                     </Card.Text>
 
                 </Card.ImgOverlay>

@@ -6,7 +6,6 @@
         max-width: 900px;
         margin: 0 auto;
         padding: 30px 0;
-    
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -22,10 +21,11 @@
             gap: 16px;
 
             .navbar__link {
-                font-size: 20px;
+                text-decoration: none;
+                font-size: 15px;
                 text-transform: uppercase;
                 cursor: pointer;
-                font-weight: 700;
+                font-weight: 500;
                 color: white;
                 margin: 0;
             }
