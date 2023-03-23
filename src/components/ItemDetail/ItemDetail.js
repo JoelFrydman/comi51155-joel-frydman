@@ -1,10 +1,9 @@
 
 
-
 const ItemDetail = ({item}) => {
 
     return (
-        <div>
+        <div className="item-detail">
             <h2>{item.name}</h2>
             <hr/>
             <img src={item.img} alt={item.name}/>

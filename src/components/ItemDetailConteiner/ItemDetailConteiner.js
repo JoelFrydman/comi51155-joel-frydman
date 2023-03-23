@@ -22,7 +22,7 @@ const ItemDetailConteiner = () => {
             setLoading(false)
         })
 
-    }, [])
+    }, [itemId])
 
     return (
             <div className="container my-5">
