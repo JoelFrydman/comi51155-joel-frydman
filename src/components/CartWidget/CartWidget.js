@@ -1,16 +1,20 @@
+import { useContext } from 'react'
 import { FaCartPlus } from 'react-icons/fa'
+import { CartContext } from '../../context/CartContext'
 import './CartWidget.scss'
-import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const CartWidget = () => {
+    const { totalCantidad } = useContext(CartContext)
 
     return (
-        <div className='cart-widget'>
-            <Button variant='success' size='sm'>Finaliza tu compra</Button>
-            <FaCartPlus className='cart-icon'/>
-            <span>0</span>
+        
+        <Link to="/cart" className='cart-widget'>
+        <FaCartPlus className='cart-icon'/>
+            <span>{totalCantidad()}</span>
+        </Link>
 
-        </div>
+        
     )
 }
 

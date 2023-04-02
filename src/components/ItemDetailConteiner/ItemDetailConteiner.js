@@ -5,6 +5,7 @@ import ItemDetail from "../ItemDetail/ItemDetail"
 
 
 const ItemDetailConteiner = () => {
+    
     const [item, setItem] = useState(null)
     const [loading, setLoading] =useState(true)
     

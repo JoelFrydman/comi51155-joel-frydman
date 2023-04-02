@@ -17,8 +17,8 @@ export const Navbar = () => {
                     <Link to='/destinos/asia' className="navbar__link">Asia</Link>
                     <Link to='/destinos/africa' className="navbar__link">Africa</Link>
                     <Link to='/destinos/oceania' className="navbar__link">Oceania</Link>
-                    <Link to='/nosotros' className="navbar__link">Nosotros</Link>
                     <Link to='/promociones' className="navbar__link">Promociones</Link>
+                    <Link to='/nosotros' className="navbar__link">Nosotros</Link>
                 </nav>
 
                 <CartWidget />
