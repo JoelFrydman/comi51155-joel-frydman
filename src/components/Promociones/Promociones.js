@@ -63,4 +63,4 @@ const Promociones = () => {
 }
 
 
-export default Promociones;
+export default Promociones
