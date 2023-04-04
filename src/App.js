@@ -13,6 +13,6 @@ function App() {
       </CartProvider>
     </LoginProvider>
   );
-}
-
+};
+ 
 export default App;

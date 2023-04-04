@@ -10,7 +10,7 @@ export const Navbar = ({red}) => {
     const { user, logout } = useContext(LoginContext)
 
     return (
-        <header className="header" style={{backgroundColor: red ? 'red' : 'darkcyan'}}>
+        <header className="header">
             <div className="header__container">
                 <img src={logo} className="header__logo" alt='logo'/>
 

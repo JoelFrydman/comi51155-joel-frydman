@@ -13,21 +13,21 @@ export const CartProvider = ({children}) => {
     }
 
     const removerItem = (id) => {
-        setCart( cart.filter((prod) => prod.id !== id) )
+        setCart( cart.filter((dest) => dest.id !== id) )
     }
 
     
 
     const isInCart = (id) => {
-      return cart.some((prod) => prod.id === id)
+      return cart.some((dest) => dest.id === id)
     }
 
     const totalCantidad = () => {
-      return cart.reduce((acc, prod) => acc + prod.cantidad, 0)
+      return cart.reduce((acc, dest) => acc + dest.cantidad, 0)
     }
 
     const totalCarrito = () => {
-        return cart.reduce((acc, prod) => acc + prod.cantidad * prod.price, 0)
+        return cart.reduce((acc, dest) => acc + dest.cantidad * dest.price, 0)
     }
 
     const vaciarCarrito = () => {
