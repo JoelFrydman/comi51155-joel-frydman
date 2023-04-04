@@ -8,7 +8,7 @@ const Promociones = () => {
     return (
     <div>
         <h2>
-            Promociones
+            Promociones unicas
             <hr/>
         </h2>
        
@@ -23,7 +23,8 @@ const Promociones = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Last updated 45 mins ago - </small>
+          <strong className="text-muted">AGOTADO</strong>
         </Card.Footer>
       </Card>
       <Card className='container m-5'>
@@ -37,7 +38,8 @@ const Promociones = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">Last updated 45 mins ago - </small>
+          <strong className="text-muted">AGOTADO</strong>
         </Card.Footer>
       </Card>
       <Card className='container m-5'>
@@ -52,7 +54,8 @@ const Promociones = () => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 45 mins ago - </small>
+          <strong className="text-muted">AGOTADO</strong>
         </Card.Footer>
       </Card>
     
