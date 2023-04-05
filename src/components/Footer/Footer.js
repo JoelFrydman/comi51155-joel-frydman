@@ -1,13 +1,16 @@
-import React from 'react';
+import React from 'react'
+import './Footer.scss'
 import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBRipple } from 'mdb-react-ui-kit';
 import logo from '../../assets/imgs/logo.png'
+
+
 
 const Footer = () => {
     return (
         <MDBFooter className='text-center text-white' style={{ backgroundColor: 'rgb(59, 60, 90' }}>
             <MDBContainer className='p-4'>
                 
-                <section className=''>
+                <section className='container-footer'>
                     <MDBRow>
                         <MDBCol lg='2' md='12' className='mb-4 mb-md-0'>
                             <MDBRipple
