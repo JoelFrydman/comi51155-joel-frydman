@@ -30,7 +30,7 @@ const Checkout = () => {
             return
         }
         if (values.direccion.length < 6) {
-            alert("El direccion es muy corto")
+            alert("La direccion es muy corta")
             return
         }
         if (values.email.length < 6) {

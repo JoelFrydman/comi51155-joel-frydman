@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.scss'
-import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBRipple } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBRipple, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import logo from '../../assets/imgs/logo.png'
+
 
 
 
@@ -100,12 +101,15 @@ const Footer = () => {
                     </MDBRow>
                 </section>
             </MDBContainer>
+            
+            
 
             <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                © 2023 Copyright: Joel Frydman - Todos los derechos reservados.
+                 Joel Frydman - Todos los derechos reservados © 2023 Copyright
 
             </div>
         </MDBFooter>
+        
 
 
 

@@ -3,6 +3,7 @@ import york from '../../assets/imgs/york.png'
 import brasil from '../../assets/imgs/brasil.png'
 import paris from '../../assets/imgs/paris.png'
 
+
 const Promociones = () => {
 
     return (
@@ -15,7 +16,7 @@ const Promociones = () => {
       <Card className='container m-5'>
         <Card.Img variant="top" src={york} />
         <Card.Body>
-          <Card.Title>New York 7 noches</Card.Title>
+          <Card.Title>Canada 7 noches</Card.Title>
           <span>$650000</span>
           <Card.Text>
             This is a wider card with supporting text below as a natural lead-in
@@ -30,7 +31,7 @@ const Promociones = () => {
       <Card className='container m-5'>
         <Card.Img variant="top" src={brasil} />
         <Card.Body>
-          <Card.Title>Natal - Pipa 7 noches</Card.Title>
+          <Card.Title>Maldivas 7 noches</Card.Title>
           <span>$400000</span>
           <Card.Text>
             This card has supporting text below as a natural lead-in to
@@ -45,7 +46,7 @@ const Promociones = () => {
       <Card className='container m-5'>
         <Card.Img variant="top" src={paris} />
         <Card.Body>
-          <Card.Title>Paris 10 noches</Card.Title>
+          <Card.Title>Francia 10 noches</Card.Title>
           <span>$700000</span>
           <Card.Text>
             This is a wider card with supporting text below as a natural lead-in
