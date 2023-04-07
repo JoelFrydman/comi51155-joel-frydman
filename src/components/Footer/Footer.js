@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.scss'
-import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBRipple, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBCol, MDBRow, MDBRipple } from 'mdb-react-ui-kit';
 import logo from '../../assets/imgs/logo.png'
 
 
