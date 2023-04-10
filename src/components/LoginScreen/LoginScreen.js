@@ -2,6 +2,7 @@ import { useContext, useState } from 'react'
 import { LoginContext } from '../../context/LoginContext'
 import './LoginScreen.scss'
 import { Link } from 'react-router-dom'
+import { FcGoogle } from 'react-icons/fc'
 
 const LoginScreen = () => {
     const { login, googleLogin } = useContext(LoginContext)
@@ -55,7 +56,8 @@ const LoginScreen = () => {
                     </div>
                 </form>
                 <div className='button-google'>
-                <button className='btn btn-outline-primary' onClick={googleLogin}>Ingresar con Google</button>
+                <button className='btn btn-outline-primary' onClick={googleLogin}>Ingresar con Google - <FcGoogle/></button>
+                
                 </div>
             </div>
         </div>
